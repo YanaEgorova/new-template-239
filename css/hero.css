@@ -1,0 +1,217 @@
+.hero {
+    text-align: center;
+    padding: 18rem 2rem;
+    background-color: var(--first-brand-color);
+    border-radius: 3rem;
+}
+.hero .title {
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+.hero .text {
+    margin-bottom: 3rem;
+}
+.hero__svg {
+    display: block;
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+}
+.hero__img {
+    display: none;
+}
+
+
+
+
+.contacts {
+    padding: 15rem 2rem;
+    text-align: center;
+    background-color: var(--second-brand-color);
+    border-radius: 3rem;
+}
+.contacts__item:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+.contacts .btn {
+    margin-bottom: 5rem;
+}
+.contacts .text {
+    color: var(--sub-text-color);
+}
+.contacts__span  {
+    color: var(--sub-text-color);
+    font-family: var(--main-title-font);
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+}
+.contacts__list {
+    margin-bottom: 5rem;
+}
+.contacts .btn,
+.question .btn {
+    border-color: var(--sub-text-color);
+}
+
+
+
+
+
+
+.question {
+    padding: 10rem 2rem;
+    text-align: center;
+    background-color: var(--second-brand-color);
+    border-radius: 3rem;
+}
+.question__sub-title {
+    font-family: var(--title-font);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.question__list {
+    margin-bottom: 5rem;
+}
+.question__item:not(:last-child) {
+    margin-bottom: 1rem;
+}
+.question__span  {
+    font-family: var(--main-title-font);
+    color: var(--second-brand-color);
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 9rem;
+    line-height: 1;
+}
+.question__item {
+    max-width: 50rem;
+    margin: 0 auto;
+    background-color: var(--main-bg-color);
+    padding: 2rem 3rem 3rem;
+    border-radius: 3rem;
+    -webkit-box-shadow: 0rem 0rem 3rem 0rem rgba(0,0,0,0.2);
+    -moz-box-shadow: 0rem 0rem 3rem 0rem rgba(0,0,0,0.2);
+    box-shadow: 0rem 0rem 3rem 0rem rgba(0,0,0,0.2);
+}
+
+
+
+
+
+.policy {
+    padding: 15rem 0;
+    text-align: center;
+    background-color: var(--second-brand-color);
+    border-radius: 3rem;
+}
+.policy .sub-title {
+    margin-bottom: 8rem;
+}
+.policy .policy__title {
+    font-family: var(--title-font);
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+.policy .text {
+    margin-bottom: 3rem;
+}
+.policy__item {
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--main-bg-color);
+    padding: 2rem 3rem 3rem;
+    border-radius: 3rem;
+    -webkit-box-shadow: 0rem 0rem 3rem 0rem rgba(0,0,0,0.2);
+    -moz-box-shadow: 0rem 0rem 3rem 0rem rgba(0,0,0,0.2);
+    box-shadow: 0rem 0rem 3rem 0rem rgba(0,0,0,0.2);
+}
+.policy__item:not(:last-child) {
+    margin-bottom: 6rem;
+}
+
+
+
+
+
+.phrase {
+    padding: 15rem 0;
+    text-align: center;
+}
+.phrase__title {
+    font-family: var(--main-title-font);
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+.lines__section,
+.lines__inner {
+    position: relative;
+}
+.lines__list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.lines__list li {
+    width: .1rem;
+    height: 100%;
+    background-color: var(--third-brand-color);
+}
+@media screen and (min-width: 1440px)  {
+    .hero {
+        text-align: left;
+        padding: 5rem 10rem;
+    }
+    .hero .btn {
+        margin-left: 0;
+    }
+    .hero__img {
+        display: block;
+        width: 30%;
+        object-fit: cover;
+        border-radius: 3rem;
+        -webkit-box-shadow: 0rem 0rem 3rem 0rem rgba(0,0,0,0.2);
+        -moz-box-shadow: 0rem 0rem 3rem 0rem rgba(0,0,0,0.2);
+        box-shadow: 0rem 0rem 3rem 0rem rgba(0,0,0,0.2);
+    } 
+    .hero .lines__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero__block {
+        padding: 25rem 0;
+    }
+
+
+
+    .contacts {
+        padding: 10rem 2rem;
+    }
+    .contacts__span  {
+        font-size: 10rem;
+    }
+
+
+    .policy__item:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .policy__list {
+        display: flex;
+        justify-content: space-around;
+    }
+    .policy__item {
+        margin: 0;
+    }
+}
